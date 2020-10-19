@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+    	<meta charset="utf-8">
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+    	<title>My Page</title>
+    	<!-- Bootstrap -->
+    	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    	<style>
+    	
+	    	.row
+	    	{
+				min-height:35px;
+				padding-bottom:3px;
+			}
+		
+		
+			.PARENTCONTAINER
+			{
+			   width:1000px;
+			   height:auto;
+			   min-height:calc(100% - 80px);
+			   margin:0 auto;
+			   display:block;
+			   background-color:white;
+			}
+			 
+			body
+			{
+				background-color: #486d46;            /* 背景色 */
+			   	background-image: url(mypage/bg_natural_mori.jpg); /* 画像 */
+				background-size: cover;               /* 全画面 */
+				background-attachment: fixed;         /* 固定 */
+				background-position: center center;
+				padding-top: 50px;
+			}
+			
+			.CONTAINERa
+			{
+				padding-top:30px;
+				padding-right:30px;
+				padding-left:30px;
+				padding-bottom:30px;
+				margin-right:auto;
+				margin-left:auto;
+			}
+			
+			textarea 
+			{
+	            height: 150px;
+	            font-weight: normal;
+	            width:100%;
+	        }
+	        
+	        
+
+	
+		</style>
+	</head>
+	
+	<body>
+		
+		
+		   <div class="PARENTCONTAINER">
+		   <div style="width:1000px;">
+		   
+		   	<div class="CONTAINERa">
+		   	
+
+		        <nav id="nav" class="navbar navbar-inverse navbar-fixed-top">
+		        		<div class="container">
+		        			<div class="navbar-header">
+		        				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+		        					<span class="sr-only">Toggle navigation</span>
+		        					<span class="icon-bar"></span>
+		        					<span class="icon-bar"></span>
+		        					<span class="icon-bar"></span>
+		        				</button>
+		        				<a class="navbar-brand" href="#">ジョブ変更サポート</a>
+		        			</div>
+		        			<div id="navbar" class="collapse navbar-collapse">
+		        				<ul class="nav navbar-nav">
+			        				<li><a href="#first">はじめに</a></li>
+		        					<li><a href="#job">ジョブ一覧</a></li>
+		        					<li><a href="#rank">人気ランキング</a></li>
+		        					<li><a href="#form">応募・質問フォーム</a></li>
+		        				</ul>
+		        			</div>
+		        		</div>
+		        	</nav>
+		        	
+		        	<input type="image" class="TopMenuSettingImg v_middle_a" id="first" src="./mypage/fantsy_haneinu.png" width="5%" height="5%" align="middle">
+		        	<br></br>
+		        	<h1 style="font-size:140%;font-weight:bold;">はじめに</h1>
+		        	<input type="image" class="TopMenuSettingImg v_middle_a" src="./mypage/game_gamen.png" width="15%" height="15%" align="middle">
+		        	＜あなたも冒険の旅に出てみませんか？
+		        	<br>
+		        	このサイトは、ジョブの紹介を通して皆様の就職・転職活動を支援する目的で作られています。<br>
+		        	応募・質問等も受け付けておりますので、ページ最下部のフォームからお気軽にご連絡ください。</br>
+		        	<br></br>
+		        	
+		        	<input type="image" id="job" class="TopMenuSettingImg v_middle_a" src="./mypage/fantsy_haneinu.png" width="5%" height="5%" align="middle">
+					<br></br>
+					
+		        	<h1 style="font-size:140%;font-weight:bold;">ジョブ一覧</h1>
+		        	
+		        	<div style="margin:0 auto;">
+		        	<div class="container" style="text-align:center;">
+		        		<div class="row">
+		        			<div class="col-sm-3">
+					        	<p class="lead" style="font-size:18px;"><strong>勇者</strong></p>
+					        	<input type="image" class="TopMenuSettingImg v_middle_a" src="./mypage/yuusya.png" width="120px" height="160px">
+					        	<br>攻撃力・防御力ともに安定しているのが特徴。</br>
+					        	主に前衛。初心者にオススメ。
+					        	<br></br>
+					        </div>
+					        
+					        	
+					        <div class="col-sm-3">
+					        	<p class="lead" style="font-size:18px;"><strong>魔法使い</strong></p>
+					        	<input type="image" class="TopMenuSettingImg v_middle_a" src="./mypage/mahoutsukai.png" width="120px" height="160px">
+					        	<br>防御力は低いが、特殊攻撃力が強いのが特徴。</br>
+					        	主に後衛。初心者にオススメ。
+					        	<br></br>
+					        	<br></br>
+					        </div>
+					        	
+					        <div class="col-sm-3">
+					        	<p class="lead" style="font-size:18px;"><strong>踊り子</strong></p>
+					        	<input type="image" class="TopMenuSettingImg v_middle_a" src="./mypage/odoriko.png" width="120px" height="160px">
+					        	<br>攻撃力・防御力ともに低いがサポートができる。</br>
+					        	主に後衛。味方を支援したい人に。
+					        	<br></br>
+					        	</div>
+					        </div>
+					        
+						<div class="row">
+		        			<div class="col-sm-3">
+					        	<p class="lead" style="font-size:18px;"><strong>バーサーカー</strong></p>
+					        	<input type="image" class="TopMenuSettingImg v_middle_a" src="./mypage/berserker.png" width="140px" height="140px">
+					        	<br>防御力はとても低いが、その分攻撃力が非常に高い。</br>
+					        	主に前衛。最前線で戦いたい人に。
+					        	<br></br>
+					        </div>
+					        
+					        <div class="col-sm-3">
+					        	<p class="lead" style="font-size:18px;"><strong>僧侶</strong></p>
+					        	<input type="image" class="TopMenuSettingImg v_middle_a" src="./mypage/obousan.png" width="110px" height="140px">
+					        	<br>攻撃力・防御力ともに低いが回復ができる。</br>
+					        	主に後衛。進化すると戦えるようになるかもしれない。
+					        	<br></br>
+					        	<br></br>
+					        </div>
+					        
+					        <div class="col-sm-3">
+					        	<p class="lead" style="font-size:18px;"><strong>吟遊詩人</strong></p>
+					        	<input type="image" class="TopMenuSettingImg v_middle_a" src="./mypage/ginyuu_shijin.png" width="140px" height="140px">
+					        	<br>攻撃力・防御力ともに低いが敵の妨害ができる。</br>
+					        	主に後衛。味方を支援したい人に。
+					        	<br></br>
+					        	<br></br>
+					        </div>
+					        </div>
+					        
+					      <div class="row">
+		        			<div class="col-sm-3">
+					        	<p class="lead" style="font-size:18px;"><strong>ネクロマンサー</strong></p>
+					        	<input type="image" class="TopMenuSettingImg v_middle_a" src="./mypage/necromancer.png" width="140px" height="140px">
+					        	<br>防御力はとても低いが、トリッキーな呪文を使える。</br>
+					        	主に後衛。呪文にデメリットがあるので注意。玄人向け。
+					        	<br></br>
+					        	<br></br>
+					        </div>
+					        
+					        <div class="col-sm-3">
+					        	<p class="lead" style="font-size:18px;"><strong>武闘家</strong></p>
+					        	<input type="image" class="TopMenuSettingImg v_middle_a" src="./mypage/energy_ha.png" width="160px" height="140px">
+					        	<br>攻撃力・防御力ともに安定しており、素手攻撃が主。</br>
+					        	主に前衛。体一つで敵に立ち向かいたい人に。
+					        	<br></br>
+					        </div>
+					        </div>
+					        </div>
+					        
+					        </div>
+					        
+				<input type="image" id="rank" class="TopMenuSettingImg v_middle_a" src="./mypage/fantsy_haneinu.png" width="5%" height="5%" align="middle">
+				<br></br>
+				<h2 style="font-size:140%;font-weight:bold;">人気ランキング</h2>
+		    			<table class="table table-striped">
+		    			    <thead>
+		    			        <tr>
+		    			            <th></th>
+		    			            <th>職業</th>
+		    			            <th>決め手</th>
+		    			        </tr>
+		    			    </thead>
+		    			    <tbody>
+		    			        <tr>
+		    			            <td>1</td>
+		    			            <td>勇者</td>
+		    			            <td>定番だから。安定感があるから。他</td>
+		    			        </tr>
+		                    	<tr>
+		                    		<td>2</td>
+		                    		<td>魔法使い</td>
+		                    		<td>ロマンがあるから。後衛でサポートができるから。他</td>
+		                    	</tr>
+			                    <tr>
+							        <td>3</td>
+		                    		<td>武闘家</td>
+		                    		<td>元々体を動かすのが好きだから。強くなりたいから。他</td>
+		                    	</tr>
+		                    	<tr>
+		                    		<td>4</td>
+		                    		<td>吟遊詩人</td>
+		                    		<td>楽しそうだから。妨害に興味があるから。他</td>
+		                    	</tr>
+		    			    </tbody>
+		    			</table>
+		    	<br></br>
+		    	<input type="image" id="form" class="TopMenuSettingImg v_middle_a" src="./mypage/fantsy_haneinu.png" width="5%" height="5%" align="middle">
+				<br></br>
+		    	<h2 style="font-size:140%;font-weight:bold;">応募・質問フォーム</h2>
+				<form action="#" method="post">
+					<p>お名前（必須）：<br>
+					<input type="text" name="name"></p>
+					<p>メールアドレス：<br>
+					<input type="text" name="mail"></p>
+					<p>内容：<br>
+					<textarea name="comment" cols="30" rows="5"></textarea></p>
+					<p><input type="submit" value="送信"></p>
+				</form>
+				
+				
+			<br></br>
+		    	
+		    <div style="text-align:center;">
+		    	<input type="image" class="TopMenuSettingImg v_middle_a" src="./mypage/slime.png" width="25px" height="25px" align="middle">
+		    	<a class="btn btn-primary" href="#">トップに戻る</a>
+		    	<input type="image" class="TopMenuSettingImg v_middle_a" src="./mypage/slime.png" width="25px" height="25px" align="middle">
+		    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		    </div>
+		    
+		   </div>
+	   
+      </body>
+</html>
